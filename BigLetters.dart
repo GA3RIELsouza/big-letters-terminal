@@ -1,6 +1,6 @@
 void main()
 {
-  print(BigLetters.toBigPhrase('HELLO, WORLD!'));
+  print(BigLetters.toBigPhrase('Hello, world!'));
 }
 
 class BigLetters
@@ -112,6 +112,11 @@ class BigLetters
 
   static String toBigLetter(String letter)
   {
+    if(letter.length < 1)
+      return '';
+    else if(letter.length > 1)
+      letter = letter.substring(0, 1);
+
     return switch(letter)
     {
       'A' || 'a' => A,
@@ -136,10 +141,11 @@ class BigLetters
     List<String> bigLetters = [];
     String bigPhrase = "";
 
+    if(phrase.length < 2)
+      return toBigLetter(phrase);
+
     for(int i = 0; i < phrase.length; i++)
-    {
       bigLetters.add(toBigLetter(phrase.substring(i, (i + 1))));
-    }
 
     for(int i = 0; i < LETTERS_HEIGHT; i++)
     {
