@@ -1,6 +1,6 @@
 void main()
 {
-  print(BigLetters.toBigPhrase('WXYZ'));
+  print(BigLetters.toBigPhrase('57643753485348'));
 }
 
 class BigLetters
@@ -214,6 +214,86 @@ class BigLetters
                           ' //    ' '\n'
                           '/======' '\n'
                           '       ';
+  static final String NUM_0 = '        '   '\n'
+                              '  //\\\\  ' '\n'
+                              ' //  /\\ '  '\n'
+                              '//  / \\\\' '\n'
+                              '\\\\ /  //' '\n'
+                              ' \\/  // '  '\n'
+                              '  \\\\//  ' '\n'
+                              '        ';
+  static final String NUM_1 = '      ' '\n'
+                              ' //|  ' '\n'
+                              '//||  ' '\n'
+                              '  ||  ' '\n'
+                              '  ||  ' '\n'
+                              '  ||  ' '\n'
+                              '======' '\n'
+                              '      ';
+  static final String NUM_2 = '      '   '\n'
+                              '===\\\\ ' '\n'
+                              '    ||'   '\n'
+                              '   // '   '\n'
+                              '  //  '   '\n'
+                              ' //   '   '\n'
+                              '|====='   '\n'
+                              '      ';
+  static final String NUM_3 = '      '  '\n'
+                              '===\\\\ ' '\n'
+                              '    \\|'  '\n'
+                              '   // '   '\n'
+                              '   \\\\ ' '\n'
+                              '    /|'   '\n'
+                              '===// '   '\n'
+                              '      ';
+  static final String NUM_4 = '       ' '\n'
+                              '   /|| ' '\n'
+                              '  //|| ' '\n'
+                              ' // || ' '\n'
+                              '|===||=' '\n'
+                              '    || ' '\n'
+                              '    || ' '\n'
+                              '       ';
+  static final String NUM_5 = '        '   '\n'
+                              '||===== '   '\n'
+                              '||      '   '\n'
+                              '||===\\\\ ' '\n'
+                              '      \\\\' '\n'
+                              '      //'   '\n'
+                              '=====// '   '\n'
+                              '        ';
+  static final String NUM_6 = '       '   '\n'
+                              '   /\\\\ ' '\n'
+                              '  //   '   '\n'
+                              ' //    '   '\n'
+                              '//===\\\\' '\n'
+                              '\\\\   //' '\n'
+                              ' \\===/ '  '\n'
+                              '       ';
+  static final String NUM_7 = '       ' '\n'
+                              '======|' '\n'
+                              '    // ' '\n'
+                              '   //  ' '\n'
+                              '  //   ' '\n'
+                              ' //    ' '\n'
+                              '//     ' '\n'
+                              '       ';
+  static final String NUM_8 = '     '   '\n'
+                              '//=\\\\' '\n'
+                              '|| ||'   '\n'
+                              '\\\\=//' '\n'
+                              '//=\\\\' '\n'
+                              '|| ||'   '\n'
+                              '\\\\=//' '\n'
+                              '     ';
+  static final String NUM_9 = '     '   '\n'
+                              '//=\\\\' '\n'
+                              '|| ||'   '\n'
+                              '\\\\=//' '\n'
+                              '  // '   '\n'
+                              ' //  '   '\n'
+                              '//   '   '\n'
+                              '     ';
   static final String FULL_STOP = '   '   '\n'
                                   '   '   '\n'
                                   '   '   '\n'
@@ -287,6 +367,16 @@ class BigLetters
       'X' || 'x' => X,
       'Y' || 'y' => Y,
       'Z' || 'z' => Z,
+      '0'        => NUM_0,
+      '1'        => NUM_1,
+      '2'        => NUM_2,
+      '3'        => NUM_3,
+      '4'        => NUM_4,
+      '5'        => NUM_5,
+      '6'        => NUM_6,
+      '7'        => NUM_7,
+      '8'        => NUM_8,
+      '9'        => NUM_9,
       '.'        => FULL_STOP,
       ','        => COMMA,
       '!'        => EXCLAMATION_MARK,
