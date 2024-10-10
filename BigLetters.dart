@@ -20,12 +20,12 @@ class BigLetters
                           '//        \\\\' '\n'
                           '            ';
   static final String B = '      '   '\n'
-                          '|==\\\\ ' '\n'
+                          '|===\\ '  '\n'
                           '||  \\|'  '\n'
                           '|| // '   '\n'
                           '|| \\\\ ' '\n'
                           '||  /|'   '\n'
-                          '|==// '   '\n'
+                          '|===/ '   '\n'
                           '      ';
   static final String C = '       '   '\n'
                           '  /===='   '\n'
