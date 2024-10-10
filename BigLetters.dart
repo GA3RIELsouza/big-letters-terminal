@@ -1,8 +1,3 @@
-void main()
-{
-  print(BigLetters.toBigPhrase('vitinho!!'));
-}
-
 class BigLetters
 {
   static final int LETTERS_HEIGHT = 8;
