@@ -99,14 +99,14 @@ class BigLetters
                           '|| \\\\ ' '\n'
                           '||  \\\\' '\n'
                           '      ';
-  static final String L = '     ' '\n'
-                          '||   ' '\n'
-                          '||   ' '\n'
-                          '||   ' '\n'
-                          '||   ' '\n'
-                          '||   ' '\n'
+  static final String L = '      ' '\n'
+                          '||    ' '\n'
+                          '||    ' '\n'
+                          '||    ' '\n'
+                          '||    ' '\n'
+                          '||    ' '\n'
                           '|=====' '\n'
-                          '     ';
+                          '      ';
   static final String M = '         '   '\n'
                           '|\\    /|'   '\n'
                           '|\\\\\\ //|' '\n'
@@ -147,14 +147,14 @@ class BigLetters
                           ' \\\\  \\\\ ' '\n'
                           '  \\==/\\\\'  '\n'
                           '        ';
-  static final String R = '    '    '\n'
-                          '|\\  '   '\n'
-                          '||\\ '   '\n'
-                          '||||'    '\n'
-                          '||//'    '\n'
-                          '||\\\\'  '\n'
+  static final String R = '     '    '\n'
+                          '|\\   '   '\n'
+                          '||\\  '   '\n'
+                          '|||| '    '\n'
+                          '||// '    '\n'
+                          '||\\\\ '  '\n'
                           '|| \\\\' '\n'
-                          '    '    '\n';
+                          '     '    '\n';
   static final String S = '      '   '\n'
                           ' /===='   '\n'
                           '|\\    '  '\n'
