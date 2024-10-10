@@ -177,13 +177,13 @@ class BigLetters
                           '    \\\\//    ' '\n'
                           '     \\/     '  '\n'
                           '            ';
-  static final String W = '                  '       '\n'
+  static final String W = '                  '     '\n'
                           '\\\\              //'   '\n'
                           ' \\\\            // '   '\n'
-                          '  \\\\    /\\    //  ' '\n'
+                          '  \\\\    /\\    //  '  '\n'
                           '   \\\\  //\\\\  //   ' '\n'
                           '    \\\\//  \\\\//    ' '\n'
-                          '     \\/    \\/     ' '\n'
+                          '     \\/    \\/     '   '\n'
                           '                  ';
   static final String X = '        '   '\n'
                           '\\\\    //' '\n'
