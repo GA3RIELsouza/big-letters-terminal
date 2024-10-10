@@ -19,7 +19,7 @@ class BigLetters
                           ' //      \\\\ ' '\n'
                           '//        \\\\' '\n'
                           '            ';
-  static final String B = '      '    '\n'
+  static final String B = '      '   '\n'
                           '|==\\\\ ' '\n'
                           '||  \\|'  '\n'
                           '|| // '   '\n'
