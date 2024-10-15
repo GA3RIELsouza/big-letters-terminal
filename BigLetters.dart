@@ -1,3 +1,8 @@
+void main()
+{
+  print(BigLetters.toBigPhrase('nnnnn'));
+}
+
 class BigLetters
 {
   static const int LETTERS_HEIGHT = 8;
@@ -9,13 +14,13 @@ class BigLetters
                           ' //      \\\\ ' '\n'
                           '//        \\\\' '\n'
                           '            ';
-  static const String B = '      '    '\n'
-                          '|===\\ ' '\n'
+  static const String B = '      '   '\n'
+                          '+===\\ '  '\n'
                           '||  \\|'  '\n'
                           '|| // '   '\n'
                           '|| \\\\ ' '\n'
                           '||  /|'   '\n'
-                          '|===/ '   '\n'
+                          '+===/ '   '\n'
                           '      ';
   static const String C = '       '   '\n'
                           '  /===='   '\n'
@@ -26,23 +31,23 @@ class BigLetters
                           '  \\===='  '\n'
                           '       ';
   static const String D = '       '   '\n'
-                          '|===\\  '  '\n'
+                          '+===\\  '  '\n'
                           '||  \\\\ ' '\n'
                           '||   \\|'  '\n'
                           '||   /|'   '\n'
                           '||  // '   '\n'
-                          '|===/  '   '\n'
+                          '+===/  '   '\n'
                           '       ';
   static const String E = '      ' '\n'
-                          '|=====' '\n'
+                          '+=====' '\n'
                           '||    ' '\n'
                           '|==== ' '\n'
                           '||    ' '\n'
                           '||    ' '\n'
-                          '|=====' '\n'
+                          '+=====' '\n'
                           '      ';
   static const String F = '      ' '\n'
-                          '|=====' '\n'
+                          '+=====' '\n'
                           '||    ' '\n'
                           '|==== ' '\n'
                           '||    ' '\n'
@@ -81,7 +86,7 @@ class BigLetters
                           '\\\\  //  ' '\n'
                           ' \\==/   '  '\n'
                           '         ';
-  static const String K = '        '   '\n'
+  static const String K = '        ' '\n'
                           '||  //'   '\n'
                           '|| // '   '\n'
                           '||//  '   '\n'
@@ -95,18 +100,18 @@ class BigLetters
                           '||    ' '\n'
                           '||    ' '\n'
                           '||    ' '\n'
-                          '|=====' '\n'
+                          '+=====' '\n'
                           '      ';
-  static const String M = '         '   '\n'
-                          '|\\    /|'   '\n'
-                          '|\\\\\\ //|' '\n'
-                          '||\\\\//||'  '\n'
-                          '|| \\/ ||'   '\n'
-                          '||    ||'    '\n'
-                          '||    ||'    '\n'
+  static const String M = '        '   '\n'
+                          '|\\    /|'  '\n'
+                          '|\\\\  //|' '\n'
+                          '||\\\\//||' '\n'
+                          '|| \\/ ||'  '\n'
+                          '||    ||'   '\n'
+                          '||    ||'   '\n'
                           '        ';
-  static const String N = '       '   '\n'
-                          '|\\   ||' '\n'
+  static const String N = '        '  '\n'
+                          '|\\   ||'  '\n'
                           '|\\\\  ||' '\n'
                           '||\\\\ ||' '\n'
                           '|| \\\\||' '\n'
@@ -137,15 +142,15 @@ class BigLetters
                           ' \\\\  \\\\ ' '\n'
                           '  \\==/\\\\'  '\n'
                           '        ';
-  static const String R = '     '    '\n'
-                          '|\\   '   '\n'
-                          '||\\  '   '\n'
-                          '|||| '    '\n'
-                          '||// '    '\n'
-                          '||\\\\ '  '\n'
+  static const String R = '     '   '\n'
+                          '+=\\  '  '\n'
+                          '||\\\\ ' '\n'
+                          '|| ||'   '\n'
+                          '||// '   '\n'
+                          '||\\\\ ' '\n'
                           '|| \\\\' '\n'
-                          '     '    '\n';
-  static const String S = '      '   '\n'
+                          '     ' ;
+  static const String S = '     '    '\n'
                           ' /===='   '\n'
                           '|\\    '  '\n'
                           ' \\\\   ' '\n'
@@ -177,13 +182,13 @@ class BigLetters
                           '    \\\\//    ' '\n'
                           '     \\/     '  '\n'
                           '            ';
-  static const String W = '                  '       '\n'
+  static const String W = '                  '     '\n'
                           '\\\\              //'   '\n'
                           ' \\\\            // '   '\n'
-                          '  \\\\    /\\    //  ' '\n'
+                          '  \\\\    /\\    //  '  '\n'
                           '   \\\\  //\\\\  //   ' '\n'
                           '    \\\\//  \\\\//    ' '\n'
-                          '     \\/    \\/     ' '\n'
+                          '     \\/    \\/     '   '\n'
                           '                  ';
   static const String X = '        '   '\n'
                           '\\\\    //' '\n'
@@ -202,12 +207,12 @@ class BigLetters
                           '   ||   '   '\n'
                           '        ';
   static const String Z = '       ' '\n'
-                          '======|' '\n'
+                          '======+' '\n'
                           '    // ' '\n'
                           '   //  ' '\n'
                           '  //   ' '\n'
                           ' //    ' '\n'
-                          '|======' '\n'
+                          '+======' '\n'
                           '       ';
   static const String NUM_0 = '        '  '\n'
                               '  /==\\  ' '\n'
@@ -231,7 +236,7 @@ class BigLetters
                               '   // '  '\n'
                               '  //  '  '\n'
                               ' //   '  '\n'
-                              '|====='  '\n'
+                              '+====='  '\n'
                               '      ';
   static const String NUM_3 = '      '   '\n'
                               '====\\ '  '\n'
@@ -245,12 +250,12 @@ class BigLetters
                               '   /| ' '\n'
                               '  //| ' '\n'
                               ' //|| ' '\n'
-                              '|==||=' '\n'
+                              '+==||=' '\n'
                               '   || ' '\n'
                               '   || ' '\n'
                               '      ';
-  static const String NUM_5 = '     '    '\n'
-                              '|==== '   '\n'
+  static const String NUM_5 = '      '   '\n'
+                              '+==== '   '\n'
                               '||    '   '\n'
                               '|===\\ '  '\n'
                               '    \\\\' '\n'
@@ -266,14 +271,14 @@ class BigLetters
                               '\\\\=//' '\n'
                               '     ';
   static const String NUM_7 = '       ' '\n'
-                              '======|' '\n'
+                              '======+' '\n'
                               '    // ' '\n'
                               '   //  ' '\n'
                               '  //   ' '\n'
                               ' //    ' '\n'
                               '//     ' '\n'
                               '       ';
-  static const String NUM_8 = '     '   '\n'
+  static const String NUM_8 = '      '  '\n'
                               '//=\\\\' '\n'
                               '|| ||'   '\n'
                               '\\\\=//' '\n'
