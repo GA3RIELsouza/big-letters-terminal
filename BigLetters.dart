@@ -1,12 +1,7 @@
-void main()
-{
-  print(BigLetters.toBigPhrase('gabriel leandro'));
-}
-
 class BigLetters
 {
-  static final int LETTERS_HEIGHT = 8;
-  static final String A = '            '   '\n'
+  static const int LETTERS_HEIGHT = 8;
+  static const String A = '            '   '\n'
                           '     /\\     '  '\n'
                           '    //\\\\    ' '\n'
                           '   //  \\\\   ' '\n'
@@ -14,15 +9,15 @@ class BigLetters
                           ' //      \\\\ ' '\n'
                           '//        \\\\' '\n'
                           '            ';
-  static final String B = '      '    '\n'
-                          '|==\\\\ ' '\n'
+  static const String B = '      '    '\n'
+                          '|===\\ ' '\n'
                           '||  \\|'  '\n'
                           '|| // '   '\n'
                           '|| \\\\ ' '\n'
                           '||  /|'   '\n'
-                          '|==// '   '\n'
+                          '|===/ '   '\n'
                           '      ';
-  static final String C = '       '   '\n'
+  static const String C = '       '   '\n'
                           '  /===='   '\n'
                           ' //    '   '\n'
                           '||     '   '\n'
@@ -30,7 +25,7 @@ class BigLetters
                           ' \\\\    ' '\n'
                           '  \\===='  '\n'
                           '       ';
-  static final String D = '       '   '\n'
+  static const String D = '       '   '\n'
                           '|===\\  '  '\n'
                           '||  \\\\ ' '\n'
                           '||   \\|'  '\n'
@@ -38,7 +33,7 @@ class BigLetters
                           '||  // '   '\n'
                           '|===/  '   '\n'
                           '       ';
-  static final String E = '      ' '\n'
+  static const String E = '      ' '\n'
                           '|=====' '\n'
                           '||    ' '\n'
                           '|==== ' '\n'
@@ -46,7 +41,7 @@ class BigLetters
                           '||    ' '\n'
                           '|=====' '\n'
                           '      ';
-  static final String F = '      ' '\n'
+  static const String F = '      ' '\n'
                           '|=====' '\n'
                           '||    ' '\n'
                           '|==== ' '\n'
@@ -54,7 +49,7 @@ class BigLetters
                           '||    ' '\n'
                           '||    ' '\n'
                           '      ';
-  static final String G = '        '   '\n'
+  static const String G = '        '   '\n'
                           '  /==== '   '\n'
                           ' //     '   '\n'
                           '||      '   '\n'
@@ -62,7 +57,7 @@ class BigLetters
                           ' \\\\   //' '\n'
                           '  \\===/ '  '\n'
                           '        ';
-  static final String H = '       ' '\n'
+  static const String H = '       ' '\n'
                           '||   ||' '\n'
                           '||   ||' '\n'
                           '|=====|' '\n'
@@ -70,7 +65,7 @@ class BigLetters
                           '||   ||' '\n'
                           '||   ||' '\n'
                           '       ';
-  static final String I = '      ' '\n'
+  static const String I = '      ' '\n'
                           '======' '\n'
                           '  ||  ' '\n'
                           '  ||  ' '\n'
@@ -78,7 +73,7 @@ class BigLetters
                           '  ||  ' '\n'
                           '======' '\n'
                           '      ';
-  static final String J = '        '   '\n'
+  static const String J = '        '   '\n'
                           '  ======'   '\n'
                           '    ||  '   '\n'
                           '    ||  '   '\n'
@@ -86,7 +81,7 @@ class BigLetters
                           '\\\\  //  ' '\n'
                           ' \\==/   '  '\n'
                           '         ';
-  static final String K = '        '   '\n'
+  static const String K = '        '   '\n'
                           '||  //'   '\n'
                           '|| // '   '\n'
                           '||//  '   '\n'
@@ -94,7 +89,7 @@ class BigLetters
                           '|| \\\\ ' '\n'
                           '||  \\\\' '\n'
                           '      ';
-  static final String L = '      ' '\n'
+  static const String L = '      ' '\n'
                           '||    ' '\n'
                           '||    ' '\n'
                           '||    ' '\n'
@@ -102,7 +97,7 @@ class BigLetters
                           '||    ' '\n'
                           '|=====' '\n'
                           '      ';
-  static final String M = '         '   '\n'
+  static const String M = '         '   '\n'
                           '|\\    /|'   '\n'
                           '|\\\\\\ //|' '\n'
                           '||\\\\//||'  '\n'
@@ -110,7 +105,7 @@ class BigLetters
                           '||    ||'    '\n'
                           '||    ||'    '\n'
                           '        ';
-  static final String N = '       '   '\n'
+  static const String N = '       '   '\n'
                           '|\\   ||' '\n'
                           '|\\\\  ||' '\n'
                           '||\\\\ ||' '\n'
@@ -118,7 +113,7 @@ class BigLetters
                           '||  \\\\|' '\n'
                           '||   \\|'  '\n'
                           '       ';
-  static final String O = '        '   '\n'
+  static const String O = '        '   '\n'
                           '  /==\\  '  '\n'
                           ' //  \\\\ ' '\n'
                           '|/    \\|'  '\n'
@@ -126,7 +121,7 @@ class BigLetters
                           ' \\\\  // ' '\n'
                           '  \\==/  '  '\n'
                           '        ';
-  static final String P = '     '   '\n'
+  static const String P = '     '   '\n'
                           '|==\\ '  '\n'
                           '|| \\\\' '\n'
                           '|| //'   '\n'
@@ -134,7 +129,7 @@ class BigLetters
                           '||   '   '\n'
                           '||   '   '\n'
                           '     ';
-  static final String Q = '        '     '\n'
+  static const String Q = '        '     '\n'
                           '  /==\\  '    '\n'
                           ' //  \\\\ '   '\n'
                           '|/    \\|'    '\n'
@@ -142,7 +137,7 @@ class BigLetters
                           ' \\\\  \\\\ ' '\n'
                           '  \\==/\\\\'  '\n'
                           '        ';
-  static final String R = '     '    '\n'
+  static const String R = '     '    '\n'
                           '|\\   '   '\n'
                           '||\\  '   '\n'
                           '|||| '    '\n'
@@ -150,7 +145,7 @@ class BigLetters
                           '||\\\\ '  '\n'
                           '|| \\\\' '\n'
                           '     '    '\n';
-  static final String S = '      '   '\n'
+  static const String S = '      '   '\n'
                           ' /===='   '\n'
                           '|\\    '  '\n'
                           ' \\\\   ' '\n'
@@ -158,7 +153,7 @@ class BigLetters
                           '    /|'   '\n'
                           '====/ '   '\n'
                           '      ';
-  static final String T = '        ' '\n'
+  static const String T = '        ' '\n'
                           '========' '\n'
                           '   ||   ' '\n'
                           '   ||   ' '\n'
@@ -166,7 +161,7 @@ class BigLetters
                           '   ||   ' '\n'
                           '   ||   ' '\n'
                           '        ';
-  static final String U = '         '   '\n'
+  static const String U = '         '   '\n'
                           '||     ||'   '\n'
                           '||     ||'   '\n'
                           '||     ||'   '\n'
@@ -174,7 +169,7 @@ class BigLetters
                           '\\\\     //' '\n'
                           ' \\\\===// ' '\n'
                           '         ';
-  static final String V = '            '   '\n'
+  static const String V = '            '   '\n'
                           '\\\\        //' '\n'
                           ' \\\\      // ' '\n'
                           '  \\\\    //  ' '\n'
@@ -182,7 +177,7 @@ class BigLetters
                           '    \\\\//    ' '\n'
                           '     \\/     '  '\n'
                           '            ';
-  static final String W = '                  '       '\n'
+  static const String W = '                  '       '\n'
                           '\\\\              //'   '\n'
                           ' \\\\            // '   '\n'
                           '  \\\\    /\\    //  ' '\n'
@@ -190,7 +185,7 @@ class BigLetters
                           '    \\\\//  \\\\//    ' '\n'
                           '     \\/    \\/     ' '\n'
                           '                  ';
-  static final String X = '        '   '\n'
+  static const String X = '        '   '\n'
                           '\\\\    //' '\n'
                           ' \\\\  // ' '\n'
                           '  \\\\//  ' '\n'
@@ -198,7 +193,7 @@ class BigLetters
                           ' //  \\\\ ' '\n'
                           '//    \\\\' '\n'
                           '        ';
-  static final String Y = '        '   '\n'
+  static const String Y = '        '   '\n'
                           '\\\\    //' '\n'
                           ' \\\\  // ' '\n'
                           '  \\\\//  ' '\n'
@@ -206,7 +201,7 @@ class BigLetters
                           '   ||   '   '\n'
                           '   ||   '   '\n'
                           '        ';
-  static final String Z = '       ' '\n'
+  static const String Z = '       ' '\n'
                           '======|' '\n'
                           '    // ' '\n'
                           '   //  ' '\n'
@@ -214,7 +209,7 @@ class BigLetters
                           ' //    ' '\n'
                           '|======' '\n'
                           '       ';
-  static final String NUM_0 = '        '  '\n'
+  static const String NUM_0 = '        '  '\n'
                               '  /==\\  ' '\n'
                               ' //  /\\ ' '\n'
                               '|/  / \\|' '\n'
@@ -222,7 +217,7 @@ class BigLetters
                               ' \\/  // ' '\n'
                               '  \\==/  ' '\n'
                               '        ';
-  static final String NUM_1 = '      ' '\n'
+  static const String NUM_1 = '      ' '\n'
                               ' //|  ' '\n'
                               '//||  ' '\n'
                               '  ||  ' '\n'
@@ -230,7 +225,7 @@ class BigLetters
                               '  ||  ' '\n'
                               '======' '\n'
                               '      ';
-  static final String NUM_2 = '      '  '\n'
+  static const String NUM_2 = '      '  '\n'
                               '====\\ ' '\n'
                               '    ||'  '\n'
                               '   // '  '\n'
@@ -238,7 +233,7 @@ class BigLetters
                               ' //   '  '\n'
                               '|====='  '\n'
                               '      ';
-  static final String NUM_3 = '      '   '\n'
+  static const String NUM_3 = '      '   '\n'
                               '====\\ '  '\n'
                               '    \\|'  '\n'
                               '   // '   '\n'
@@ -246,7 +241,7 @@ class BigLetters
                               '    /|'   '\n'
                               '====/ '   '\n'
                               '      ';
-  static final String NUM_4 = '      ' '\n'
+  static const String NUM_4 = '      ' '\n'
                               '   /| ' '\n'
                               '  //| ' '\n'
                               ' //|| ' '\n'
@@ -254,7 +249,7 @@ class BigLetters
                               '   || ' '\n'
                               '   || ' '\n'
                               '      ';
-  static final String NUM_5 = '     '    '\n'
+  static const String NUM_5 = '     '    '\n'
                               '|==== '   '\n'
                               '||    '   '\n'
                               '|===\\ '  '\n'
@@ -262,7 +257,7 @@ class BigLetters
                               '    //'   '\n'
                               '====/ '   '\n'
                               '      ';
-  static final String NUM_6 = '     '   '\n'
+  static const String NUM_6 = '     '   '\n'
                               '   //'   '\n'
                               '  // '   '\n'
                               ' //  '   '\n'
@@ -270,7 +265,7 @@ class BigLetters
                               '|| ||'   '\n'
                               '\\\\=//' '\n'
                               '     ';
-  static final String NUM_7 = '       ' '\n'
+  static const String NUM_7 = '       ' '\n'
                               '======|' '\n'
                               '    // ' '\n'
                               '   //  ' '\n'
@@ -278,7 +273,7 @@ class BigLetters
                               ' //    ' '\n'
                               '//     ' '\n'
                               '       ';
-  static final String NUM_8 = '     '   '\n'
+  static const String NUM_8 = '     '   '\n'
                               '//=\\\\' '\n'
                               '|| ||'   '\n'
                               '\\\\=//' '\n'
@@ -286,7 +281,7 @@ class BigLetters
                               '|| ||'   '\n'
                               '\\\\=//' '\n'
                               '     ';
-  static final String NUM_9 = '     '   '\n'
+  static const String NUM_9 = '     '   '\n'
                               '//=\\\\' '\n'
                               '|| ||'   '\n'
                               '\\\\=//' '\n'
@@ -294,7 +289,7 @@ class BigLetters
                               ' //  '   '\n'
                               '//   '   '\n'
                               '     ';
-  static final String FULL_STOP = '  '  '\n'
+  static const String FULL_STOP = '  '  '\n'
                                   '  '  '\n'
                                   '  '  '\n'
                                   '  '  '\n'
@@ -302,7 +297,7 @@ class BigLetters
                                   '/\\' '\n'
                                   '\\/' '\n'
                                   '  ';
-  static final String COMMA = '   ' '\n'
+  static const String COMMA = '   ' '\n'
                               '   ' '\n'
                               '   ' '\n'
                               '   ' '\n'
@@ -310,7 +305,7 @@ class BigLetters
                               '   ' '\n'
                               ' //' '\n'
                               '// ';
-  static final String EXCLAMATION_MARK = '||'  '\n'
+  static const String EXCLAMATION_MARK = '||'  '\n'
                                          '||'  '\n'
                                          '||'  '\n'
                                          '||'  '\n'
@@ -318,7 +313,7 @@ class BigLetters
                                          '/\\' '\n'
                                          '\\/' '\n'
                                          '  ';
-  static final String QUESTION_MARK = '==\\' '\n'
+  static const String QUESTION_MARK = '==\\' '\n'
                                       '  ||' '\n'
                                       ' //'  '\n'
                                       '// '  '\n'
@@ -326,7 +321,7 @@ class BigLetters
                                       '/\\'  '\n'
                                       '\\/'  '\n'
                                       '   ';
-  static final String SPACE = '           ' '\n'
+  static const String SPACE = '           ' '\n'
                               '           ' '\n'
                               '           ' '\n'
                               '           ' '\n'
@@ -334,89 +329,170 @@ class BigLetters
                               '           ' '\n'
                               '           ';
 
+  static String toNormalLetter(String bigLetter)
+  {
+    if(bigLetter.length < 1)
+      return "";
+    
+    return switch(bigLetter)
+    {
+      A     => 'A',
+      B     => 'B',
+      C     => 'C',
+      D     => 'D',
+      E     => 'E',
+      F     => 'F',
+      G     => 'G',
+      H     => 'H',
+      I     => 'I',
+      J     => 'J',
+      K     => 'K',
+      L     => 'L',
+      M     => 'M',
+      N     => 'N',
+      O     => 'O',
+      P     => 'P',
+      Q     => 'Q',
+      R     => 'R',
+      S     => 'S',
+      T     => 'T',
+      U     => 'U',
+      V     => 'V',
+      W     => 'W',
+      X     => 'X',
+      Y     => 'Y',
+      Z     => 'Z',
+      NUM_0 => '0',
+      NUM_1 => '1',
+      NUM_2 => '2',
+      NUM_3 => '3',
+      NUM_4 => '4',
+      NUM_5 => '5',
+      NUM_6 => '6',
+      NUM_7 => '7',
+      NUM_8 => '8',
+      NUM_9 => '9',
+      FULL_STOP        => '.',
+      COMMA            => ',',
+      EXCLAMATION_MARK => '!',
+      QUESTION_MARK    => '?',
+      SPACE            => ' ',
+      _ => ''
+    };
+  }
+
   static String toBigLetter(String letter)
   {
+    if(letter.length < 1)
+      return "";
     if(letter.length > 1)
       letter = letter.substring(0, 1);
 
-    return switch(letter)
+    return switch(letter.toUpperCase())
     {
-      'A' || 'a' => A,
-      'B' || 'b' => B,
-      'C' || 'c' => C,
-      'D' || 'd' => D,
-      'E' || 'e' => E,
-      'F' || 'f' => F,
-      'G' || 'g' => G,
-      'H' || 'h' => H,
-      'I' || 'i' => I,
-      'J' || 'j' => J,
-      'K' || 'k' => K,
-      'L' || 'l' => L,
-      'M' || 'm' => M,
-      'N' || 'n' => N,
-      'O' || 'o' => O,
-      'P' || 'p' => P,
-      'Q' || 'q' => Q,
-      'R' || 'r' => R,
-      'S' || 's' => S,
-      'T' || 't' => T,
-      'U' || 'u' => U,
-      'V' || 'v' => V,
-      'W' || 'w' => W,
-      'X' || 'x' => X,
-      'Y' || 'y' => Y,
-      'Z' || 'z' => Z,
-      '0'        => NUM_0,
-      '1'        => NUM_1,
-      '2'        => NUM_2,
-      '3'        => NUM_3,
-      '4'        => NUM_4,
-      '5'        => NUM_5,
-      '6'        => NUM_6,
-      '7'        => NUM_7,
-      '8'        => NUM_8,
-      '9'        => NUM_9,
-      '.'        => FULL_STOP,
-      ','        => COMMA,
-      '!'        => EXCLAMATION_MARK,
-      '?'        => QUESTION_MARK,
-      ' '        => SPACE,
-      '\n'       => '\n',
-      _ => ''
+      'A' => A,
+      'B' => B,
+      'C' => C,
+      'D' => D,
+      'E' => E,
+      'F' => F,
+      'G' => G,
+      'H' => H,
+      'I' => I,
+      'J' => J,
+      'K' => K,
+      'L' => L,
+      'M' => M,
+      'N' => N,
+      'O' => O,
+      'P' => P,
+      'Q' => Q,
+      'R' => R,
+      'S' => S,
+      'T' => T,
+      'U' => U,
+      'V' => V,
+      'W' => W,
+      'X' => X,
+      'Y' => Y,
+      'Z' => Z,
+      '0' => NUM_0,
+      '1' => NUM_1,
+      '2' => NUM_2,
+      '3' => NUM_3,
+      '4' => NUM_4,
+      '5' => NUM_5,
+      '6' => NUM_6,
+      '7' => NUM_7,
+      '8' => NUM_8,
+      '9' => NUM_9,
+      '.' => FULL_STOP,
+      ',' => COMMA,
+      '!' => EXCLAMATION_MARK,
+      '?' => QUESTION_MARK,
+      ' ' => SPACE,
+      _   => ''
     };
   }
 
   static String toBigPhrase(String phrase)
   {
-    List<String> bigLetters = [];
-    String bigPhrase = "";
+    List<String> subPhrases = [];
+    List<List<String>> bigLetters = [];
+    String bigPhrase = '';
 
-    if(phrase.length < 2)
-      return toBigLetter(phrase);
-
-    for(int i = 0; i < phrase.length; i++)
-      bigLetters.add(toBigLetter(phrase.substring(i, (i + 1))));
-
-    for(int i = 0; i < LETTERS_HEIGHT; i++)
+    do
     {
-      for(int j = 0; j < bigLetters.length; j++)
+      if(phrase.indexOf('\n') > -1)
       {
-        if(bigLetters[j].indexOf('\n') > -1)
-        {
-          bigPhrase += bigLetters[j].substring(0, bigLetters[j].indexOf('\n'));
-
-          bigLetters[j] = bigLetters[j].substring(bigLetters[j].indexOf('\n') + 1);
-        }
-        else
-        {
-          bigPhrase += bigLetters[j].substring(0);
-        }
-        bigPhrase += ' ';
+        subPhrases.add(phrase.substring(0, phrase.indexOf('\n')));
+        phrase = phrase.substring(phrase.indexOf('\n') + 1);
       }
-      bigPhrase += '\n';
+      else
+      {
+        subPhrases.add(phrase);
+        phrase = '';
+      }
+      bigLetters.add([]);
+    }
+    while(phrase.length > 0);
+
+    for(int i = 0; i < subPhrases.length; i++)
+    {
+      String phrase = subPhrases[i];
+
+      for(int j = 0; j < phrase.length; j++)
+      {
+        String letter = phrase.substring(j, (j + 1));
+
+        bigLetters[i].add(toBigLetter(letter));
+      }
     }
 
+    int linhas = bigLetters.length;
+
+    for(int i = 0; i < linhas; i++)
+    {
+      for(int j = 0; j < LETTERS_HEIGHT; j++)
+      {
+        for(int k = 0; k < bigLetters[i].length; k++)
+        {
+          if(bigLetters[i][k].indexOf('\n') > -1)
+          {
+            bigPhrase += bigLetters[i][k].substring(0, bigLetters[i][k].indexOf('\n'));
+
+            bigLetters[i][k] = bigLetters[i][k].substring(bigLetters[i][k].indexOf('\n') + 1);
+          }
+          else
+          {
+            bigPhrase += bigLetters[i][k].substring(0);
+          }
+          bigPhrase += ' ';
+        }
+        bigPhrase += '\n';
+      }
+    }
+    
     return bigPhrase;
   }
 }
