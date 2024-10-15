@@ -1,6 +1,6 @@
 void main()
 {
-  print(BigLetters.toBigPhrase('dfsfsdgfhrjryhrht'));
+  print(BigLetters.toBigPhrase('gabriel leandro'));
 }
 
 class BigLetters
@@ -94,14 +94,14 @@ class BigLetters
                           '|| \\\\ ' '\n'
                           '||  \\\\' '\n'
                           '      ';
-  static final String L = '     ' '\n'
-                          '||   ' '\n'
-                          '||   ' '\n'
-                          '||   ' '\n'
-                          '||   ' '\n'
-                          '||   ' '\n'
+  static final String L = '      ' '\n'
+                          '||    ' '\n'
+                          '||    ' '\n'
+                          '||    ' '\n'
+                          '||    ' '\n'
+                          '||    ' '\n'
                           '|=====' '\n'
-                          '     ';
+                          '      ';
   static final String M = '         '   '\n'
                           '|\\    /|'   '\n'
                           '|\\\\\\ //|' '\n'
