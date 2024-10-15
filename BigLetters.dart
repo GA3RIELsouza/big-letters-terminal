@@ -1,8 +1,3 @@
-void main()
-{
-  print(BigLetters.toBigPhrase('nnnnn'));
-}
-
 class BigLetters
 {
   static const int LETTERS_HEIGHT = 8;
