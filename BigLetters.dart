@@ -1,11 +1,6 @@
 void main()
 {
-  print(BigLetters.toBigPhrase('A B C D E F') +
-        BigLetters.toBigPhrase('G H I J K L') +
-        BigLetters.toBigPhrase('M N O P Q R S') +
-        BigLetters.toBigPhrase('T U V W X Y Z') +
-        BigLetters.toBigPhrase('0 1 2 3 4 5 6 7 8 9') +
-        BigLetters.toBigPhrase('. , ! ?'));
+  print(BigLetters.toBigPhrase('dfsfsdgfhrjryhrht'));
 }
 
 class BigLetters
@@ -147,14 +142,14 @@ class BigLetters
                           ' \\\\  \\\\ ' '\n'
                           '  \\==/\\\\'  '\n'
                           '        ';
-  static final String R = '    '    '\n'
-                          '|\\  '   '\n'
-                          '||\\ '   '\n'
-                          '||||'    '\n'
-                          '||//'    '\n'
-                          '||\\\\'  '\n'
+  static final String R = '     '    '\n'
+                          '|\\   '   '\n'
+                          '||\\  '   '\n'
+                          '|||| '    '\n'
+                          '||// '    '\n'
+                          '||\\\\ '  '\n'
                           '|| \\\\' '\n'
-                          '    '    '\n';
+                          '     '    '\n';
   static final String S = '      '   '\n'
                           ' /===='   '\n'
                           '|\\    '  '\n'
