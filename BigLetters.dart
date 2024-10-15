@@ -469,9 +469,7 @@ class BigLetters
       }
     }
 
-    int linhas = bigLetters.length;
-
-    for(int i = 0; i < linhas; i++)
+    for(int i = 0; i < bigLetters.length; i++)
     {
       for(int j = 0; j < LETTERS_HEIGHT; j++)
       {
